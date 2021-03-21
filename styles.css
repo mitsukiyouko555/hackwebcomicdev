@@ -1,0 +1,101 @@
+/*
+
+For English, use this:
+
+font-family: 'Bungee Hairline', cursive;
+
+
+For Japanese, use this: 
+
+font-family: 'M PLUS Rounded 1c', sans-serif;
+
+*/
+
+body{
+	background-image: url(img/bg.jpg);
+	background-color: #343937;
+	background-repeat: no-repeat;
+	background-size: 100% 300em;
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+h1{
+	font-family: 'Bungee Hairline', cursive;
+	left: 20px;
+	top: 25%;
+	position: absolute;
+	color: white;
+	z-index: 10;
+}
+
+body, h1, h2, h3, h4, h5, h6{
+	font-family: 'Bungee Hairline', cursive;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6{
+	z-index: 10;
+}
+
+span{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+nav{
+	position: sticky;
+	top: 0%;
+	background-color: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+	z-index: 10;
+	margin-top: 0px;
+	padding-top: 2px; 
+	padding-bottom: 2px;
+}
+
+nav ul{
+
+	list-style-type: none;
+	display: flex;
+	padding: 0px 0px;
+	height: auto;
+
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: block;
+	margin: 0;
+}
+nav li{
+	flex: 1 1 0;
+}
+
+.banner img{
+	position: relative;
+	max-width: 100%;
+	padding: 0px auto;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+footer{
+	position: absolute;
+	text-align: center;
+	color: white;
+	top: 283em;
+	white-space: normal;
+	width: 100%;
+}
+
+.incompatible{
+    position: absolute;
+    z-index: 10;
+    left: 0
+    opacity: 0;
+    top: 30%;
+	padding: 3em;
+    justify-content: center;
+    color: white;
+}

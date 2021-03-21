@@ -1,0 +1,407 @@
+ffmpeg version N-100466-g29cef1bcd6-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2020 the FFmpeg developers
+  built with Apple clang version 11.0.0 (clang-1100.0.33.17)
+  configuration: --cc=/usr/bin/clang --prefix=/opt/ffmpeg --extra-version=tessus --enable-avisynth --enable-fontconfig --enable-gpl --enable-libaom --enable-libass --enable-libbluray --enable-libdav1d --enable-libfreetype --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libmysofa --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvmaf --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-version3 --pkg-config-flags=--static --disable-ffplay
+  libavutil      56. 62.100 / 56. 62.100
+  libavcodec     58.115.102 / 58.115.102
+  libavformat    58. 65.100 / 58. 65.100
+  libavdevice    58. 11.103 / 58. 11.103
+  libavfilter     7. 94.100 /  7. 94.100
+  libswscale      5.  8.100 /  5.  8.100
+  libswresample   3.  8.100 /  3.  8.100
+  libpostproc    55.  8.100 / 55.  8.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument '/private/var/folders/4v/sq7tyflj1994xcwf_2y1vl500000gp/T/KritaFFmpegProgress.gBsyTL'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'palettegen'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/palette.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument /private/var/folders/4v/sq7tyflj1994xcwf_2y1vl500000gp/T/KritaFFmpegProgress.gBsyTL.
+[file @ 0x7f9666d0b080] Setting default whitelist 'file,crypto,data'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url /Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: /Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame%04d.png.
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0000.png' for reading
+[file @ 0x7f9666d0d380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c07500] Statistics: 136547 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0001.png' for reading
+[file @ 0x7f9666d0d440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668604080] Statistics: 143577 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0002.png' for reading
+[file @ 0x7f9666f071c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f072c0] Statistics: 145252 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0003.png' for reading
+[file @ 0x7f9666f07300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c07600] Statistics: 142359 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0004.png' for reading
+[file @ 0x7f9666c07600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668004300] Statistics: 159699 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0005.png' for reading
+[file @ 0x7f9666d0d500] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d0d380] Statistics: 163723 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0006.png' for reading
+[file @ 0x7f9666d0d5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f07480] Statistics: 195514 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0007.png' for reading
+[file @ 0x7f9666f07480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f07540] Statistics: 194488 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0008.png' for reading
+[file @ 0x7f9666f07540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668004300] Statistics: 214586 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0009.png' for reading
+[file @ 0x7f9668004580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c07600] Statistics: 214586 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0010.png' for reading
+[file @ 0x7f9666c07bc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c07c80] Statistics: 211461 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0011.png' for reading
+[file @ 0x7f9666f076c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f077c0] Statistics: 229241 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0012.png' for reading
+[file @ 0x7f9668004640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d0d500] Statistics: 236370 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0013.png' for reading
+[file @ 0x7f9666d0d500] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f076c0] Statistics: 194674 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0014.png' for reading
+[file @ 0x7f9666d0d640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f076c0] Statistics: 184577 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0015.png' for reading
+[file @ 0x7f9666f07940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668004580] Statistics: 176965 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0016.png' for reading
+[file @ 0x7f9668004700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f96680047c0] Statistics: 185217 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0017.png' for reading
+[file @ 0x7f96680047c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668004a00] Statistics: 198242 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0018.png' for reading
+[file @ 0x7f9666d0d700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c07bc0] Statistics: 201484 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0019.png' for reading
+[file @ 0x7f9666c07c40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668004740] Statistics: 194571 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0020.png' for reading
+[file @ 0x7f9668004940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668004a00] Statistics: 193974 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0021.png' for reading
+[file @ 0x7f9668004b80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668004c40] Statistics: 192216 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0022.png' for reading
+[file @ 0x7f9668004c40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668004d40] Statistics: 190383 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0023.png' for reading
+[file @ 0x7f9668004d80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c07c40] Statistics: 191224 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0024.png' for reading
+[file @ 0x7f9666c07dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668004bc0] Statistics: 191224 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0025.png' for reading
+[file @ 0x7f9668004dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f07940] Statistics: 192541 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0026.png' for reading
+[file @ 0x7f9666f079c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c07dc0] Statistics: 192541 bytes read, 0 seeks
+[image2 @ 0x7f966780ac00] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame%04d.png':
+  Duration: 00:00:03.36, start: 0.000000, bitrate: N/A
+    Stream #0:0, 27, 1/25: Video: png, 1 reference frame, rgba(pc), 968x851 [SAR 11811:11811 DAR 968:851], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url /Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/palette.png.
+Applying option vf (set video filters) with argument palettegen.
+Successfully parsed a group of options.
+Opening an output file: /Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/palette.png.
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[graph 0 input from stream 0:0 @ 0x7f9666e049c0] Setting 'video_size' to value '968x851'
+[graph 0 input from stream 0:0 @ 0x7f9666e049c0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 0x7f9666e049c0] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 0x7f9666e049c0] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 0x7f9666e049c0] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 0x7f9666e049c0] w:968 h:851 pixfmt:rgba tb:1/24 fr:24/1 sar:11811/11811
+[format @ 0x7f9668005b80] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scaler_0 @ 0x7f96680066c0] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 0x7f96680066c0] w:iw h:ih flags:'bicubic' interl:0
+[Parsed_palettegen_0 @ 0x7f9666e04680] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_palettegen_0'
+[auto_scaler_1 @ 0x7f9668006f00] Setting 'flags' to value 'bicubic'
+[auto_scaler_1 @ 0x7f9668006f00] w:iw h:ih flags:'bicubic' interl:0
+[format @ 0x7f9668005b80] auto-inserting filter 'auto_scaler_1' between the filter 'Parsed_palettegen_0' and the filter 'format'
+[AVFilterGraph @ 0x7f9668604f00] query_formats: 4 queried, 1 merged, 2 already done, 0 delayed
+[auto_scaler_1 @ 0x7f9668006f00] picking rgba out of 10 ref:bgra alpha:1
+[swscaler @ 0x7f96687e5000] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 0x7f96680066c0] w:968 h:851 fmt:rgba sar:11811/11811 -> w:968 h:851 fmt:bgra sar:1/1 flags:0x4
+[swscaler @ 0x7f96687f2000] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 0x7f9668006f00] w:16 h:16 fmt:bgra sar:1/1 -> w:16 h:16 fmt:rgba sar:1/1 flags:0x4
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 18 times
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0027.png' for reading
+[file @ 0x7f9666e89640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f11500] Statistics: 191533 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0028.png' for reading
+[file @ 0x7f9666cb5880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d82b40] Statistics: 192372 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0029.png' for reading
+[file @ 0x7f9666e28f00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668038e00] Statistics: 195071 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0030.png' for reading
+[file @ 0x7f9668612740] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d82f00] Statistics: 194783 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0031.png' for reading
+[file @ 0x7f9668076880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668076a40] Statistics: 196552 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0032.png' for reading
+[file @ 0x7f9668117480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c16e00] Statistics: 196552 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0033.png' for reading
+[file @ 0x7f9666d42ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d82f40] Statistics: 190740 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0034.png' for reading
+[file @ 0x7f9666d83180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d83240] Statistics: 190825 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0035.png' for reading
+[file @ 0x7f9668635240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666cb5f00] Statistics: 183770 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0036.png' for reading
+[file @ 0x7f9668622d00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666e5f3c0] Statistics: 183749 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0037.png' for reading
+[file @ 0x7f9666f46c80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f46dc0] Statistics: 181889 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0038.png' for reading
+[file @ 0x7f96698157c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666e8e3c0] Statistics: 181517 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0039.png' for reading
+[file @ 0x7f9666e38e00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f96680953c0] Statistics: 193747 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0040.png' for reading
+[file @ 0x7f9668694340] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d904c0] Statistics: 193747 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0041.png' for reading
+[file @ 0x7f9666d2ef40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d904c0] Statistics: 208384 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0042.png' for reading
+[file @ 0x7f9666c574c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c445c0] Statistics: 206840 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0043.png' for reading
+[file @ 0x7f9666d60a40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d1a840] Statistics: 195138 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0044.png' for reading
+[file @ 0x7f9666dc3480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c438c0] Statistics: 195138 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0045.png' for reading
+[file @ 0x7f9666c34d80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c55840] Statistics: 193940 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0046.png' for reading
+[file @ 0x7f9666c16e00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c16ec0] Statistics: 197675 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0047.png' for reading
+[file @ 0x7f966af10b80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966af10c40] Statistics: 197675 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0048.png' for reading
+[file @ 0x7f966af10dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9669871c40] Statistics: 194291 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0049.png' for reading
+[file @ 0x7f966af10dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966af10e80] Statistics: 194291 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0050.png' for reading
+[file @ 0x7f966af56280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666e5d640] Statistics: 195965 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0051.png' for reading
+[file @ 0x7f966afaf900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966811b700] Statistics: 199523 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0052.png' for reading
+[file @ 0x7f9666e40580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966812e880] Statistics: 187928 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0053.png' for reading
+[file @ 0x7f9666cf7380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666cb3680] Statistics: 187058 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0054.png' for reading
+[file @ 0x7f966afaf900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668609180] Statistics: 195860 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0055.png' for reading
+[file @ 0x7f966863a480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f24640] Statistics: 197260 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0056.png' for reading
+[file @ 0x7f9666f1a180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9669834e80] Statistics: 198028 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0057.png' for reading
+[file @ 0x7f9666f709c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f70b40] Statistics: 200632 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0058.png' for reading
+[file @ 0x7f9666f70ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f70b80] Statistics: 202227 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0059.png' for reading
+[file @ 0x7f9666f70d00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f70e00] Statistics: 198344 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0060.png' for reading
+[file @ 0x7f966802f240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668029c80] Statistics: 201538 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0061.png' for reading
+[file @ 0x7f966802f240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f96680c2e00] Statistics: 198847 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0062.png' for reading
+[file @ 0x7f966802f240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f3a400] Statistics: 194930 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0063.png' for reading
+[file @ 0x7f9666f9ea80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666f9eb40] Statistics: 216354 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0064.png' for reading
+[file @ 0x7f9666fcb7c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666fcb880] Statistics: 214175 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0065.png' for reading
+[file @ 0x7f966d7098c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966d709980] Statistics: 206577 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0066.png' for reading
+[file @ 0x7f966d709c00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668008240] Statistics: 206416 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0067.png' for reading
+[file @ 0x7f9668122c40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d0f000] Statistics: 202210 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0068.png' for reading
+[file @ 0x7f9666d13f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666dbedc0] Statistics: 203576 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0069.png' for reading
+[file @ 0x7f9666d104c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966e004080] Statistics: 200721 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0070.png' for reading
+[file @ 0x7f966800bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f96680255c0] Statistics: 193443 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0071.png' for reading
+[file @ 0x7f966800bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f96680e4940] Statistics: 192432 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0072.png' for reading
+[file @ 0x7f96680e4bc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d65b00] Statistics: 191264 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0073.png' for reading
+[file @ 0x7f9666f07840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966d709c00] Statistics: 191264 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0074.png' for reading
+[file @ 0x7f9666f07840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966d73d980] Statistics: 192296 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0075.png' for reading
+[file @ 0x7f9666f07840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966d76b9c0] Statistics: 185689 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0076.png' for reading
+[file @ 0x7f9666f07840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9668039f00] Statistics: 171630 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0077.png' for reading
+[file @ 0x7f96680326c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966e144640] Statistics: 171406 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0078.png' for reading
+[file @ 0x7f9668104ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966e16da00] Statistics: 169853 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0079.png' for reading
+[file @ 0x7f966e144840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966e144900] Statistics: 169179 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0080.png' for reading
+[file @ 0x7f9666d532c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d18300] Statistics: 162613 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0081.png' for reading
+[file @ 0x7f9666c075c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666c081c0] Statistics: 162613 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0082.png' for reading
+[file @ 0x7f9666d532c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f9666d18300] Statistics: 162613 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0x7f966780ac00] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame0083.png' for reading
+[file @ 0x7f9666d532c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966802d900] Statistics: 162613 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[Parsed_palettegen_0 @ 0x7f9666e04680] 255(+1) colors generated out of 371422 colors; ratio=0.000687
+[Parsed_palettegen_0 @ 0x7f9666e04680] Dupped color: FF000000
+[Parsed_palettegen_0 @ 0x7f9666e04680] Dupped color: FFFEFEFE
+    Last message repeated 1 times
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+Output #0, image2, to '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/palette.png':
+  Metadata:
+    encoder         : Lavf58.65.100
+    Stream #0:0, 0, 1/24: Video: png, 1 reference frame, rgba(pc, progressive), 16x16 (0x0) [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 24 fps, 24 tbn
+    Metadata:
+      encoder         : Lavc58.115.102 png
+Clipping frame in rate conversion by 0.000008
+frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[out_0_0 @ 0x7f96680059c0] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[image2 @ 0x7f9668808200] Opening '/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/palette.png' for writing
+[file @ 0x7f966802b540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0x7f966800cdc0] Statistics: 0 seeks, 1 writeouts
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.045x    
+[AVIOContext @ 0x7f9666d0b240] Statistics: 0 seeks, 2 writeouts
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Input file #0 (/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/frame%04d.png):
+  Input stream #0:0 (video): 84 packets read (16004532 bytes); 84 frames decoded; 
+  Total: 84 packets (16004532 bytes) demuxed
+Output file #0 (/Users/mitsukiyouko/Desktop/Dropbox/HTML_CSS/H@<K_Website/img/palette.png):
+  Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (1003 bytes); 
+  Total: 1 packets (1003 bytes) muxed
+84 frames successfully decoded, 0 decoding errors
