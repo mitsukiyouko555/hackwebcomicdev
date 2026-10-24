@@ -9,11 +9,11 @@ class Header extends HTMLElement{
     <header>
         <nav class="main-nav">
             <ul>
-                <li><a href="manga.html"><span>マンガ</span><br>Manga</a></li>
-                <li><a href="trailers.html"><span>よこくへん</span><br>Trailers</a></li>
-                <li><a href="index.html"><span>ホームページ</span><br>Home</a></li>
-                <li><a href="music.html"><span>おんがく</span><br>Music</a></li>
-                <li><a href="books_merch.html"><span>本としょうひん</span><br>Books + Merch</a></li>
+                <li><a href="manga.html"><span>マンガ</span>Manga</a></li>
+                <li><a href="trailers.html"><span>よこくへん</span>Trailers</a></li>
+                <li><a href="index.html"><span>ホームページ</span>Home</a></li>
+                <li><a href="music.html"><span>おんがく</span>Music</a></li>
+                <li><a href="books_merch.html"><span>本としょうひん</span>Books + Merch</a></li>
             </ul>
         </nav>
     </header>

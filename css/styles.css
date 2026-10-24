@@ -2,3 +2,73 @@
   font-family: Bungee Hairline;
   src: url(/fonts/BungeeHairline-Regular.ttf);
 }
+
+@font-face {
+  font-family: Bungee Regular;
+  src: url(/fonts/Bungee-Regular.ttf);
+}
+
+@font-face {
+  font-family: Michroma Regular;
+  src: url(/fonts/Michroma-Regular.ttf);
+}
+
+@font-face {
+  font-family: Syncopate;
+  src: url(/fonts/Syncopate-Regular.ttf);
+}
+
+html{
+    background: linear-gradient(#209671,#55ff99);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+  margin: 0;
+}
+
+nav{
+    background-color: rgba(255,255,255,0.2);
+    padding: .3px;
+}
+.main-nav{
+  font-family: Bungee Hairline;
+  
+}
+
+a, a:visited{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin: 5px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+span{
+  display: flex;
+
+}
+footer {
+  color: rgb(5, 98, 89);
+  font-family: Syncopate;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;                /* Spans the full screen safely */
+  padding: 0 2em;          /* Puts spacing inside the box instead of pushing it out */
+  box-sizing: border-box;  /* Ensures padding doesn't break the width */
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  font-size: .7em;
+}
