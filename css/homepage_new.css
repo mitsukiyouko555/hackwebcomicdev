@@ -1,5 +1,7 @@
 .hexagons > img{
     width: 200px;
+    cursor: pointer;
+
 }
 
 .hexagons{
@@ -27,4 +29,26 @@
   color: white;
   margin-left: 1em;
   font-size: 1em;
+}
+
+.plotpic{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.plotpic > img{
+    width: 15em;
+    cursor: pointer;
+}
+
+.settings{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.settings > img{
+    width: 400px;
 }
