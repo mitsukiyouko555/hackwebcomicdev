@@ -39,3 +39,4 @@ customElements.define('footer-component', Footer);
 
 
 //Banner templates..
+

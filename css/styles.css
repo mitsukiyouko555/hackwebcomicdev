@@ -72,3 +72,16 @@ footer {
   justify-content: space-around;
   font-size: .7em;
 }
+.carousel {
+  width: 100%;
+  overflow: hidden; /* Hides images outside the view */
+}
+
+.group {
+  display: flex;
+}
+
+.group > img {
+  width: 100vw;
+  flex-shrink: 0; /* Prevents images from squishing */
+}
