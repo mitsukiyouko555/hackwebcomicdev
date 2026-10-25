@@ -39,7 +39,12 @@ I also imported the JS file without "defer" so that it loads before or at the sa
 ### Things I Learned
 - For github pages to work, all links to files must be relative.
 
-Bad: /img/avatar/maxus_avatar.gif
-GOOD: img/avatar/maxus_avatar.gif
+Bad: `/img/avatar/maxus_avatar.gif`
+GOOD: `img/avatar/maxus_avatar.gif`
 
 If you put a / in front of the path (or css file or js file) it won't work (with github pages).
+
+For fonts, you need to put ../ in front of the path not just /
+
+Bad:`/fonts/BungeeHairline-Regular.ttf`
+GOOD: `../fonts/BungeeHairline-Regular.ttf`
