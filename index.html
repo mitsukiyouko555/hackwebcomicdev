@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Official H@&#60;k Homepage</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="homepage_new.css">
+    <link rel="stylesheet" href="/css/homepage_new.css">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -14,25 +14,61 @@
     <meta name="theme-color" content="#ffffff">
     <!-- exclude the defer here since we want the js to run ASAP NOT after the html elements cus some of the JS CREATES the html elements. -->
     <script src="/js/templates.js" type="text/javascript"></script>
-    <script src="/js/javascript.js" type="text/javascript"></script>
+    <script src="/js/hexagons.js" type="text/javascript"></script>
+    <script src="/js/javascript.js" defer type="text/javascript"></script>
+
 </head>
 
 <body>
-    <!-- rotating carosol banner goes here -->
-    <div class ="carousel">
-        <div aria-hidden class="group">
-            <img src="/img/banner/maxus_banner.jpg">
-            <img src="/img/banner/hydra_banner.jpg">
-            <img src="/img/banner/mouse_banner.jpg">
-            <img src="/img/banner/alis_banner.jpg">
-            <img src="/img/banner/mal_banner.jpg">
-            
+    <div id="main-banner">
+        <!-- rotating carosol banner goes here -->
+        <div class ="carousel">
+            <div aria-hidden class="group">
+                <img src="/img/banner/maxus_banner.jpg">
+                <img src="/img/banner/hydra_banner.jpg">
+                <img src="/img/banner/mouse_banner.jpg">
+                <img src="/img/banner/alis_banner.jpg">
+                <img src="/img/banner/mal_banner.jpg">
+            </div>
+        </div>
+        <div class="bannertitle">
+            <h2>ハックのせかいへようこそ！
+            <span> Welcome to the World of H@&#60;k</span></h2>
         </div>
     </div>
-
     <header-component></header-component>
 
+    <div class="content">
+     
+        <div>
+            <h3 class="titlesection">キャラクター プロット<span>Character Plot</span></h3>
+        </div>
+        <div class="plotpic">
 
+        </div>
+
+        <div>
+            <h3 class="titlesection">キャラクター<span>Characters</span></h3>
+        </div>
+        
+        <div class="hexagons" id="hexagons">
+            <img src="img/avatars/maxus_avatar.gif">
+            <img src="img/avatars/hydra_avatar.gif">
+            <img src="img/avatars/alis_avatar.gif">
+            <img src="img/avatars/mouse_avatar.gif">
+            <img src="img/avatars/mal_avatar.gif">
+
+        </div>
+
+        <div>
+            <h3 class="titlesection"> セッティング<span>Setting</span></h3>
+        </div>
+
+        <div class="settings">
+
+        </div>
+
+    </div>
 
     <footer-component></footer-component>
 

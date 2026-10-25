@@ -1,0 +1,30 @@
+.hexagons > img{
+    width: 200px;
+}
+
+.hexagons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#main-banner{
+  display: grid
+}
+#main-banner > div{
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.bannertitle{
+  z-index: 10;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: left;
+  pointer-events: none;
+  color: white;
+  margin-left: 1em;
+  font-size: 1em;
+}

@@ -32,7 +32,8 @@ nav{
     background-color: rgba(255,255,255,0.2);
     padding: .3px;
 }
-.main-nav{
+
+.main-nav, .bannertitle, body{
   font-family: Bungee Hairline;
   
 }
@@ -60,13 +61,13 @@ span{
 footer {
   color: rgb(5, 98, 89);
   font-family: Syncopate;
-  position: fixed;
+  position: static;
   bottom: 0;
   left: 0;
   right: 0;                /* Spans the full screen safely */
   padding: 0 2em;          /* Puts spacing inside the box instead of pushing it out */
   box-sizing: border-box;  /* Ensures padding doesn't break the width */
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-around;
@@ -84,4 +85,37 @@ footer {
 .group > img {
   width: 100vw;
   flex-shrink: 0; /* Prevents images from squishing */
+}
+
+.banner > img{
+  width: 100vw;
+}
+
+header-component{
+    position: sticky;
+    top:0;
+}
+
+
+/* This is where all the main stuff goes. */
+.content{
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px){
+    .bannertitle{
+    zoom: 80%;
+  }
+}
+@media (max-width: 600px){
+  .bannertitle{
+    zoom: 40%;
+  }
+  nav, footer{
+    zoom: 60%;
+  }
 }
