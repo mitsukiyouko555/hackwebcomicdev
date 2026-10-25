@@ -52,3 +52,7 @@
 .settings > img{
     width: 400px;
 }
+
+.section1, .section2{
+    padding-bottom: 3em;
+}
