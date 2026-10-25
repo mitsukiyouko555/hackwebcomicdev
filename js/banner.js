@@ -6,10 +6,10 @@ class BannerComponent extends HTMLElement{
         const page = (!file || file === "index") ? 'index' : file
 
         const bannerMap = {
-            "trailers":"/img/banner/banner.jpg",
-            "music":"/img/banner/banner.jpg",
-            "manga":"/img/banner/banner.jpg",
-            "books_merch":"/img/banner/banner.jpg",
+            "trailers":"img/banner/banner.jpg",
+            "music":"img/banner/banner.jpg",
+            "manga":"img/banner/banner.jpg",
+            "books_merch":"img/banner/banner.jpg",
         }
         const imgSrc = bannerMap[page]
         this.innerHTML=`

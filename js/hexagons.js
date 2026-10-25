@@ -45,9 +45,9 @@ document.addEventListener("DOMContentLoaded",() =>{
     const hexagonContent = document.querySelector('.hexagons')
 
     displayOrder.forEach(charName => {
-        const avatar = `/img/avatars/${charName}_avatar.gif`;
-        const avatarHover = `/img/avatars/${charName}_avatar_hover.gif`;
-        const placeholder = "/img/placeholders/hexagon.gif"
+        const avatar = `img/avatars/${charName}_avatar.gif`;
+        const avatarHover = `img/avatars/${charName}_avatar_hover.gif`;
+        const placeholder = "img/placeholders/hexagon.gif"
 
     const hexElement = document.createElement('div')
     hexElement.classList.add('hexagons')
