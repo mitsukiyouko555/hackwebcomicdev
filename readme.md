@@ -35,3 +35,11 @@ Oct 24, 2026
 I also imported the JS file without "defer" so that it loads before or at the same time as the HTML.
 
 2. Dynamically replaced the banners with a banner component in JS using window.location (With some help from gemini since I've not done this before..)
+
+### Things I Learned
+- For github pages to work, all links to files must be relative.
+
+Bad: /img/avatar/maxus_avatar.gif
+GOOD: img/avatar/maxus_avatar.gif
+
+If you put a / in front of the path (or css file or js file) it won't work (with github pages).

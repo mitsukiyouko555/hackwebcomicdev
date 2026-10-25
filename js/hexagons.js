@@ -4,7 +4,6 @@
 
 //hexagons
 
-
 const displayOrder = [
     "maxus",
     "sally",
