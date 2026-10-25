@@ -46,6 +46,7 @@ a, a:visited{
   align-items: center; 
   margin: 5px;
 }
+
 ul{
   list-style: none;
   padding: 0;
@@ -61,7 +62,7 @@ span{
 footer {
   color: rgb(5, 98, 89);
   font-family: Syncopate;
-  position: static;
+  /* position: static; */
   bottom: 0;
   left: 0;
   right: 0;                /* Spans the full screen safely */
@@ -72,6 +73,7 @@ footer {
   text-align: center;
   justify-content: space-around;
   font-size: .7em;
+  
 }
 .carousel {
   width: 100%;
@@ -95,7 +97,6 @@ header-component{
     position: sticky;
     top:0;
 }
-
 
 /* This is where all the main stuff goes. */
 .content{
