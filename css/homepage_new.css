@@ -60,7 +60,7 @@
     width: 400px;
 }
 
-.section1, .section2{
+.section0, .section1, .section2{
     padding-bottom: 3em;
 }
 
@@ -81,4 +81,18 @@
     flex-wrap: wrap;
     width: 15em;
     color: rgb(214, 255, 216);
+}
+
+.overallplot{
+    font-family: plotpicFont;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    padding-right: 5em;
+    padding-left: 5em;
+}
+.overallplot > img{
+    width: 90vw;
+    
 }

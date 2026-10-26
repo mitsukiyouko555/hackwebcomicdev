@@ -25,6 +25,7 @@ Art:
 - Do/redo the character expression art for the mcs?
 - Update the hexagon art for some of the characters.. or just redo them
 - Actually make some real comp'd animations for the main characters at least..
+- resize all the images so that they are of a reasonable size from the beginning rather than it being huge then sized down.
 
 ### Refactor notes.. (Things I fixed/updated):
 
