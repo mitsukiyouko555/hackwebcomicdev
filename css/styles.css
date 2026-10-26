@@ -18,6 +18,12 @@
   src: url(../fonts/Syncopate-Regular.ttf);
 }
 
+@font-face {
+  font-family: MPLUS Regular;
+  src: url(../fonts/MPLUSRounded1c-Regular.ttf);
+}
+
+
 html{
     background: linear-gradient(#3ead7b,#457e76) no-repeat;
 }
