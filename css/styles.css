@@ -23,6 +23,20 @@
   src: url(../fonts/MPLUSRounded1c-Regular.ttf);
 }
 
+@font-face {
+  font-family: Tipo;
+  src: url(../fonts/tipo-metro-cdmx.regular.otf);
+}
+
+@font-face {
+  font-family: Moondog15;
+  src: url(../fonts/MoondogFifteen-18Z.ttf);
+}
+
+@font-face {
+  font-family: Mplus-Light;
+  src: url(../fonts/MPLUSRounded1c-Light.ttf);
+}
 
 html{
     background: linear-gradient(#4ba57d,#3ca092) no-repeat;

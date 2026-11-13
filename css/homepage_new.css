@@ -108,15 +108,52 @@
 }
 .panel > *{
     color: white;
-    font-family: MPLUS Regular;
+    font-family: Mplus-Light;
+    letter-spacing: 1px;
+    overflow-wrap: break-word;
 }
 .panel > h1{
     font-family: Bungee Regular;
 }
+.panel > p {
+    line-height: 15px;
+
+}
+
 .close-btn{
     color: rgb(9, 250, 170);
     font-size: 5em;
     font-family:Bungee Regular;
     float: right;
     cursor: pointer;
+}
+
+.expressionpix{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+.expressionpix > img{
+    width: 10em;
+}
+
+/* @media (max-width: 800px){
+
+} */
+@media (max-width: 600px){
+    .panel{
+        padding: 2em;
+        width: 95%;
+
+    }
+    .panel > h1, p{
+        zoom:0.8
+    }
+    .expressionpix{
+        gap: 0.8em;
+    }
+    .expressionpix > img{
+        width: 130px;
+    }
 }
