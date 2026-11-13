@@ -94,3 +94,29 @@
     width: 90vw;
     
 }
+.panelSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel{
+    background-color: rgb(34, 30, 24);
+    width: 50vw;
+    --height-params: 70em;
+    min-height:var(--height-params);
+    padding: 3em;
+}
+.panel > *{
+    color: white;
+    font-family: MPLUS Regular;
+}
+.panel > h1{
+    font-family: Bungee Regular;
+}
+.close-btn{
+    color: rgb(9, 250, 170);
+    font-size: 5em;
+    font-family:Bungee Regular;
+    float: right;
+    cursor: pointer;
+}
