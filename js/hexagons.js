@@ -4,41 +4,7 @@
 
 //hexagons
 
-const displayOrder = [
-    "maxus",
-    "sally",
-    "jolly",
-    "kale",
-    "ziah",
-    "hydra",
-    "sai",
-    "aeru",
-    "ransom",
-    "kobe",
-    "spydr",
-    "kali",
-    "mouse",
-    "chestil",
-    "bank",
-    "cody",
-    "alis",
-    "cheshire",
-    "dormouse",
-    "boshi",
-    "mal",
-    "hockt",    
-    "lexo",
-    "badely",
-    "gillian",
-    "inko",
-    "musashi",
-    "codec",
-    "melody",
-    "bones",
-    "cheesecake",
-    "shiro_nori",
-]
-
+import { displayOrder } from "./hexagonContent.js";
 
 document.addEventListener("DOMContentLoaded",() =>{
     const hexagonContent = document.querySelector('.hexagons')
@@ -66,6 +32,7 @@ document.addEventListener("DOMContentLoaded",() =>{
         hexElement.querySelector("img").src = avatar
     })
 
+    // Add an onclick thingy here so that when clicked, it creates a panel...
     hexagonContent.appendChild(hexElement)
 
     })
