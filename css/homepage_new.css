@@ -175,18 +175,26 @@
 
 } */
 @media (max-width: 600px){
-    .panel{
-        padding: 2em;
-        width: 95%;
-
+    .panel, .panel > div > img, .abilities {
+        margin: 3px;
+        zoom: 50%;
     }
-    .panel > h1, p{
+    .panel > h1, p, .plotpic > div> img{
         zoom:0.8
     }
-    .expressionpix{
-        gap: 0.8em;
+    .abilities > div > img{
+        zoom: 0.55;
+    }
+    .expressionpix, .panel > .frontback{
+        gap: 1em;
+        padding: 0px;
+        margin: 0px;
+        zoom: 0.7;
     }
     .expressionpix > img{
         width: 130px;
+    }
+    .settings > img{
+        width: 200px;
     }
 }
