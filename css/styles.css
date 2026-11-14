@@ -39,7 +39,8 @@
 }
 
 html{
-    background: linear-gradient(#4ba57d,#3ca092) no-repeat;
+    background: linear-gradient(#4ba57d,#3ca092) fixed;
+    min-height: 100%;
 }
 
 body{

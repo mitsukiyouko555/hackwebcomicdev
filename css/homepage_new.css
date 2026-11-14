@@ -94,17 +94,27 @@
     width: 90vw;
     
 }
+
+.section2{
+    position: relative;
+    padding-bottom: 5em;
+}
 .panelSection{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.panel{
+.panel {
     background-color: rgb(34, 30, 24);
     width: 60vw;
     --height-params: 70em;
-    min-height:var(--height-params);
+    min-height: var(--height-params);
     padding: 3em;
+    position: absolute;
+    top: 5em; /* Adjust this number up or down to align with the top of your hexagons */
+    left: 50%;
+    transform: translateX(-50%); /* Centers it horizontally */
+    margin-bottom: 5em;
 }
 .panel > *{
     color: white;
