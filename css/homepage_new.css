@@ -69,13 +69,8 @@
     to{opacity: 0;}
 } */
 
-@font-face {
-  font-family: plotpicFont;
-  src: url(../fonts/Murecho-ExtraLight.ttf);
-}
-
 .plotpic > div > p{
-    font-family: plotpicFont;
+    font-family: Murecho-ExtraLight;
     font-size: 0.9em;
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +79,7 @@
 }
 
 .overallplot{
-    font-family: plotpicFont;
+    font-family: Murecho-ExtraLight;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -118,7 +113,7 @@
 }
 .panel > *{
     color: white;
-    font-family: Mplus-Light;
+    font-family: Murecho-ExtraLight;
     letter-spacing: 0.7px;
     overflow-wrap: break-word;
 }
@@ -185,9 +180,12 @@
 
 } */
 @media (max-width: 600px){
+    .hexagons, .settings > img{
+        zoom: 90%;
+    }
     .panel, .panel > div > img, .abilities {
         margin: 3px;
-        zoom: 50%;
+        zoom: 90%;
     }
     .panel > h1, p, .plotpic > div> img{
         zoom:0.8
@@ -204,7 +202,5 @@
     .expressionpix > img{
         width: 130px;
     }
-    .settings > img{
-        width: 200px;
-    }
+    
 }
