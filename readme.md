@@ -49,3 +49,8 @@ For fonts, you need to put ../ in front of the path not just /
 
 Bad:`/fonts/BungeeHairline-Regular.ttf`
 GOOD: `../fonts/BungeeHairline-Regular.ttf`
+
+Nov 13, 2026
+
+1. JS that imports another js needs to be noted as a module instead of a text/javascript in the html section otherwise it won't work.
+
