@@ -101,7 +101,7 @@
 }
 .panel{
     background-color: rgb(34, 30, 24);
-    width: 50vw;
+    width: 60vw;
     --height-params: 70em;
     min-height:var(--height-params);
     padding: 3em;
@@ -109,15 +109,14 @@
 .panel > *{
     color: white;
     font-family: Mplus-Light;
-    letter-spacing: 1px;
+    letter-spacing: 0.7px;
     overflow-wrap: break-word;
 }
 .panel > h1{
     font-family: Bungee Regular;
 }
-.panel > p {
-    line-height: 15px;
-
+.panel > p{
+    line-height: 20px;
 }
 
 .close-btn{
@@ -133,9 +132,43 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 3em;
+    padding-top: 2em;
+    padding-bottom: 3em;
 }
 .expressionpix > img{
     width: 10em;
+}
+
+.frontback{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.frontback > img{
+    width: 20em;
+    padding: 1em;
+}
+
+.abilities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.abilities > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abilities > div, .abilities > div > img{
+    width: 25em;
+}
+
+.headings > h2{
+    text-align: center;
 }
 
 /* @media (max-width: 800px){
