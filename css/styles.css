@@ -1,3 +1,7 @@
+:root{
+  --textColor: rgb(217, 255, 248);
+}
+
 @font-face {
   font-family: Bungee Hairline;
   src: url(../fonts/BungeeHairline-Regular.ttf);

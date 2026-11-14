@@ -54,3 +54,11 @@ Nov 13, 2026
 
 1. JS that imports another js needs to be noted as a module instead of a text/javascript in the html section otherwise it won't work.
 
+
+Nov 14, 2026
+
+Instead of using a ternary operator and repeating the variable twice...:
+`${char.age ? char.age : ""}` 
+
+You can use this as a short hand to make this even dryer but this only works if you aren't mapping it.
+`${char.age || ""}`

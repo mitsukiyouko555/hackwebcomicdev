@@ -69,13 +69,19 @@
     to{opacity: 0;}
 } */
 
+ 
+
 .plotpic > div > p{
     font-family: Murecho-ExtraLight;
     font-size: 0.9em;
     display: flex;
     flex-wrap: wrap;
     width: 15em;
-    color: rgb(214, 255, 216);
+    color: var(--textColor);
+}
+
+.overallplot{
+    color: var(--textColor);
 }
 
 .overallplot{
@@ -203,4 +209,12 @@
         width: 130px;
     }
     
+}
+
+.panel hr {
+    border: none;
+    height: 1px;               /* Sets a crisp, thin line */
+    background-color: #ffffff; /* Matches your white theme */
+    opacity: 0.5;              /* Optional: softens it slightly */
+    margin: 1.5em 0;           /* Adds clean spacing above and below */
 }
