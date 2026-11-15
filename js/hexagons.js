@@ -21,21 +21,24 @@ function createPanel(charName, char){
                 <h3>Affiliation: ${char.affiliation ? char.affiliation : ""}</h3>
                 <hr>
                 <h3>About:</h3>
-                ${char.about ? char.about.map(about => `<p>${about}</p><br><br>`).join('') : ""}
+                ${char.about ? char.about.map(about => `<p>${about}</p>`).join('') : ""}
+                
+                ${char.abilities && char.abilities.length > 0 ? `
                 <div class="headings">
                     <hr>
                     <h2>Abilities</h2>
                 </div>
                 
                 <div class="abilities">
-                    ${char.abilities? char.abilities.map(ab =>`
+                    ${char.abilities.map(ab => `
                         <div>
-                        <h3 class="abilityname">${ab.title}</h3>
-                        <p class="abilitydesc">${ab.desc}</p>
-                        <img src="${ab.img}">
-                        </div?
-                        `).join('') : ""}
+                            <h3 class="abilityname">${ab.title}</h3>
+                            <p class="abilitydesc">${ab.desc}</p>
+                            <img src="${ab.img}">
+                        </div>
+                    `).join('')}
                 </div>
+            ` : ""}
         </div>
     `
 }
@@ -44,48 +47,51 @@ document.addEventListener("DOMContentLoaded",() =>{
     const hexagonContent = document.querySelector('.hexagons')
     const panelSection = document.getElementById('panelSection')
 
-    panelSection.innerHTML = displayOrder.map(charName =>{
-        const char = panelContent.find(c => c.nameEng && c.nameEng.toLowerCase() === charName)
-        return createPanel(charName, char)
-    }).join('')
+    const characterData = displayOrder.map(charName => ({
+        charName,
+        char: panelContent.find(c => c.nameEng && c.nameEng.toLowerCase() === charName)
+    }))
+    panelSection.innerHTML = characterData.map(({ charName, char }) => createPanel(charName, char)).join('');
 
-    displayOrder.forEach(charName => {
+    characterData.forEach(({charName, char}) => {
         const avatar = `img/avatars/${charName}_avatar.gif`;
         const avatarHover = `img/avatars/${charName}_avatar_hover.gif`;
         const placeholder = "img/placeholders/hexagon.gif"
+        const image = char ? (avatar ? avatar: placeholder) : placeholder;
 
-    const hexElement = document.createElement('div')
-    hexElement.classList.add('hexagons')
-    hexElement.dataset.character = charName;
 
-    const image = charName ? avatar : placeholder;
+        const hexElement = document.createElement('div')
+        hexElement.classList.add('hexagons')
+        hexElement.dataset.character = charName;
 
-    hexElement.innerHTML =
-        `
-        <img src="${image}" class="hexagons">
-        `
 
-    hexElement.addEventListener('mouseenter', () =>{
-        hexElement.querySelector("img").src = avatarHover
-    })
-    hexElement.addEventListener('mouseleave', () =>{
-        hexElement.querySelector("img").src = avatar
-    })
+        hexElement.innerHTML =`<img src="${avatar}" class="hexagons" onerror="this.src='img/placeholders/hexagon.gif'">`
 
-    hexElement.addEventListener('click', () =>{
-        // console.log(hexElement.dataset)
-        const clickedChar = hexElement.dataset.character;
-        document.querySelectorAll('.panel').forEach(p => p.style.display = 'none')
-
-        const targetPanel = document.getElementById(`panel-${clickedChar}`)
-        if (targetPanel){
-            targetPanel.style.display = 'block';
+        if (char){
+            hexElement.addEventListener('mouseenter', () =>{
+                hexElement.querySelector("img").src = avatarHover
+            })
+            hexElement.addEventListener('mouseleave', () =>{
+                hexElement.querySelector("img").src = avatar
+            })
         }
+        hexElement.addEventListener('click', () =>{
+            // console.log(hexElement.dataset)
+            const clickedChar = hexElement.dataset.character;
+            document.querySelectorAll('.panel').forEach(p => p.style.display = 'none')
+
+            const targetPanel = document.getElementById(`panel-${clickedChar}`)
+            if (targetPanel){
+                targetPanel.style.display = 'block';
+            }
+        })
+
+        // Add an onclick thingy here so that when clicked, it creates a panel...
+        hexagonContent.appendChild(hexElement)
+        
     })
 
-    // Add an onclick thingy here so that when clicked, it creates a panel...
-    hexagonContent.appendChild(hexElement)
-    })
+
 
     document.addEventListener('click', (e) =>{
         if (e.target.classList.contains('close-btn')){

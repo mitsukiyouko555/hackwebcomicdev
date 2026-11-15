@@ -64,13 +64,6 @@
     padding-bottom: 3em;
 }
 
-/* @keyframes plotpic{
-    from{opacity: 1;}
-    to{opacity: 0;}
-} */
-
- 
-
 .plotpic > div > p{
     font-family: Murecho-ExtraLight;
     font-size: 0.9em;
@@ -80,8 +73,9 @@
     color: var(--textColor);
 }
 
-.overallplot{
+.overallplot, .overallplot > img{
     color: var(--textColor);
+    width: 80vw;
 }
 
 .overallplot{
@@ -91,14 +85,9 @@
     align-items: center;
     justify-content: center;
 }
-.overallplot > img{
-    width: 90vw;
-    
-}
 
 .section2{
     position: relative;
-    padding-bottom: 5em;
 }
 .panelSection{
     display: flex;
@@ -115,7 +104,6 @@
     top: 5em; /* Adjust this number up or down to align with the top of your hexagons */
     left: 50%;
     transform: translateX(-50%); /* Centers it horizontally */
-    margin-bottom: 5em;
 }
 .panel > *{
     color: white;
@@ -168,10 +156,16 @@
     gap: 2em;
 }
 
+.abilityname{
+    line-height: 0px;
+}
+
 .abilities > div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 1;
+
 }
 
 .abilities > div, .abilities > div > img{
