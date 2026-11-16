@@ -10,6 +10,8 @@ class BannerComponent extends HTMLElement{
             "music":"img/banner/banner.jpg",
             "manga":"img/banner/banner.jpg",
             "books_merch":"img/banner/banner.jpg",
+            "gallery":"img/banner/banner.jpg",
+            "support":"img/banner/banner.jpg",
         }
         const imgSrc = bannerMap[page]
         this.innerHTML=`

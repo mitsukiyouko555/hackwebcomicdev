@@ -17,8 +17,8 @@ function createPanel(charName, char){
                     ${char.frontBackPix ? char.frontBackPix.map(img => `<img src="${img}">`).join('') : ''}
                 </div>
                 <hr>
-                <h3>Age: ${char.age ? char.age : ""}</h3>
-                <h3>Affiliation: ${char.affiliation ? char.affiliation : ""}</h3>
+                <p>Age: ${char.age ? char.age : ""}</p>
+                <p>Affiliation: ${char.affiliation ? char.affiliation : ""}</p>
                 <hr>
                 <h3>About:</h3>
                 ${char.about ? char.about.map(about => `<p>${about}</p>`).join('') : ""}
