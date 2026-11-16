@@ -4,6 +4,8 @@
 
 //hexagons
 
+//Got some help/references from Gemini for this since I've not really used maps before so this is def a good learning experience!
+
 import { displayOrder, panelContent} from "./hexagonContent.js";
 
 function createPanel(charName, char){
@@ -75,16 +77,32 @@ document.addEventListener("DOMContentLoaded",() =>{
                 hexElement.querySelector("img").src = avatar
             })
         }
-        hexElement.addEventListener('click', () =>{
-            // console.log(hexElement.dataset)
+        hexElement.addEventListener('click', () => {
             const clickedChar = hexElement.dataset.character;
-            document.querySelectorAll('.panel').forEach(p => p.style.display = 'none')
+            
+            // Hide all panels first
+            document.querySelectorAll('.panel').forEach(p => p.style.display = 'none');
 
-            const targetPanel = document.getElementById(`panel-${clickedChar}`)
-            if (targetPanel){
+            const targetPanel = document.getElementById(`panel-${clickedChar}`);
+            if (targetPanel) {
+                // 1. Get the position of the clicked hexagon
+                const hexRect = hexElement.getBoundingClientRect();
+                const containerRect = hexagonContent.getBoundingClientRect();
+
+                // 2. Calculate the top position right under the hexagon
+                const topPos = hexRect.top ;
+
+                // 3. Apply the top position and make it visible
+                targetPanel.style.top = `${topPos}px`; 
                 targetPanel.style.display = 'block';
+
+                // 4. Smoothly scroll the window to the top of the opened panel
+                targetPanel.scrollIntoView({ 
+                    behavior: 'smooth', 
+                    block: 'start' // Aligns the top of the panel to the top of the viewport
+                });
             }
-        })
+        });
 
         // Add an onclick thingy here so that when clicked, it creates a panel...
         hexagonContent.appendChild(hexElement)

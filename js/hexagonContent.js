@@ -97,11 +97,11 @@ export const panelContent = [
         abilities:[
             {title:"Electric Sphere", 
                 desc:"Maxus is able to summon explosive electric spheres but they're most effective in close range.", 
-                img:"img/anims/electric_sphere.gif"},
+                img:"img/characterAnims/electric_sphere.gif"},
 
             {title:"Red Lightning", 
                 desc:"Maxus's main ability is red lightning, which she can use in a variety of ways.", 
-                img:"img/anims/Maxus_Red_Lightning.gif"},
+                img:"img/characterAnims/Maxus_Red_Lightning.gif"},
 
             {title:"Electric Beam", 
                 desc:"Maxus can summon electric beams that can pierce through barriers.", 
@@ -109,7 +109,7 @@ export const panelContent = [
 
             {title:"Lightning Sword", 
                 desc:"Maxus is able to summon a sword that she'd built out of code at will.", 
-                img:"img/anims/sword_summon.gif"},
+                img:"img/characterAnims/sword_summon.gif"},
         ]
     },
 

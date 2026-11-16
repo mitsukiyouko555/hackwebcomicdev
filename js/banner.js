@@ -1,4 +1,4 @@
-//Banner templates..
+//Banner navbar..
 
 class BannerComponent extends HTMLElement{
     connectedCallback(){

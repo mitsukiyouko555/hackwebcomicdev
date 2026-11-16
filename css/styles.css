@@ -67,7 +67,11 @@ nav{
 
 .main-nav, .bannertitle, body{
   font-family: Bungee Hairline;
-  
+}
+
+.main-nav{
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: currentColor;
 }
 
 a, a:visited{

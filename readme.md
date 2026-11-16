@@ -31,7 +31,7 @@ Art:
 
 Oct 24, 2026
 
-1. Instead of having headers manually copied and pasted, I learned about HTMLElement Templates and made use of that..
+1. Instead of having headers manually copied and pasted, I learned about HTMLElement navbar and made use of that..
 
 I also imported the JS file without "defer" so that it loads before or at the same time as the HTML.
 
